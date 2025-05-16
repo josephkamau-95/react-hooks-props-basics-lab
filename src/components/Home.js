@@ -1,6 +1,8 @@
 import React from "react";
 
 function Home(props) {
+  console.log(`these are the HOME props: ${props}`);
+  console.log(props);
   return (
     <div id="home">
       <h1 style={{ color: props.color }}>
